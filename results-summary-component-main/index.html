@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./style.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main_container">
+    <div class="result_container">
+      <h3 class="result_container_header">Your result</h3>
+      <div class="score_container">
+        <p style="font-size: 40px;font-weight: 700;margin: 0px; color: #fff;">76</p>
+        <p style="color:#5f67d1">of 100</p>
+      </div>
+      <h2 class="compliment">Great</h2>
+      <p class="comment" >You scored higher than 65% of<br> the people who have taken<br> these tests.</p>
+    </div>
+    <div class="summary_container">
+      <h3 class="summary_container_header" >Summary</h3>
+      <div class="topics_container">
+        <div class="reaction_container topic">
+          <p class="reaction_text"><span class="reaction_svg"></span>Reaction</p>
+          <p><b class="actual_score">80</b> / 100</p>
+        </div>
+        <div class="memory_container topic">
+          <p class="memory_text"><span class="memory_svg"></span>Memory</p>
+          <p><b class="actual_score">92</b> / 100</p>
+        </div>
+        <div class="verbal_container topic">
+          <p class="verbal_text"><span class="verbal_svg"></span>Verbal</p>
+          <p><b class="actual_score">61</b> / 100</p>
+        </div>
+        <div class="visual_container topic">
+          <p class="visual_text"><span class="visual_svg"></span>Visual</p>
+          <p><b class="actual_score">72</b> / 100</p>
+        </div>      
+      </div>
+      
+      <button class="button">Continue</button>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Christopher Quarshie</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_container{
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+
+    
+}
+
+.result_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+width: 20%;
+height:25em;
+border-radius: 20px;
+
+background: linear-gradient(to top, #040d85, #545ee4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.result_container_header{
+    color: #b6bafd;
+}
+
+.compliment{
+    color:#fff ;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+.comment{
+    color:#b6bafd ; 
+    text-align: center;
+}
+
+.score_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    background: linear-gradient(to top, #040d85, #545ee4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.summary_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   padding: 20px;
+width: 20%;
+height:25em;
+border-radius: 5px;
+
+}
+
+.summary_container_header{
+    float:left;
+}
+
+.topic{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+   
+}
+
+.reaction_container{
+    background-color: rgb(228, 207, 207);
+    padding: 0px 10px;
+}
+.memory_container{
+    background-color: rgb(214, 212, 205);
+    padding: 0px 10px;
+}
+.verbal_container{
+    background-color: rgb(155, 192, 161);
+    padding: 0px 10px;
+}
+.visual_container{
+    background-color: rgb(172, 168, 209);
+    padding: 0px 10px;
+}
+
+.reaction_text{
+    color: #c70606;
+}
+.memory_text{
+    color: #cabd00;
+}
+.verbal_text{
+    color: #057e1f;
+}
+.visual_text{
+    color: #040d85;
+}
+.reaction_svg{
+    background: url(./assets/images/icon-reaction.svg) no-repeat center left;
+    padding-left: 30px; /* adjust as needed */
+}
+.memory_svg{
+    background: url(./assets/images/icon-memory.svg) no-repeat center left;
+    padding-left: 30px; /* adjust as needed */
+}
+.verbal_svg{
+    background: url(./assets/images/icon-verbal.svg) no-repeat center left;
+    padding-left: 30px; /* adjust as needed */
+}
+.visual_svg{
+    background: url(./assets/images/icon-visual.svg) no-repeat center left;
+    padding-left: 30px; /* adjust as needed */
+}
+
+
+.button{
+    height: 40px;
+    width: 240px;
+    color: #fff;
+    background-color: #040d85;
+    border-radius: 20px;
+}
+
+
+
